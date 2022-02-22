@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+}
+
+                                                        /* Header */
+
+header {
+    display: flex;
+    background: #3B72CC;
+    height: 195px;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+#header-logo {
+    width: 141px;
+    height: 63px;
+    padding-left: 124px;
+}
+
+nav a {
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 57PX;
+}
+
+a:hover {
+   text-decoration: underline red;
+   text-underline-position: under;
+   text-decoration-thickness: 5px;
+}
+
+#header-icons img {
+    padding: 26px;
+}
+
+                                            /* Main */ 
+
+#painel {
+    background: url('painel.png') no-repeat;
+    background-size: cover;
+    height: 575px;
+    
+}
