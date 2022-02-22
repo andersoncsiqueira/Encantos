@@ -40,7 +40,7 @@ a:hover {
                                             /* Main */ 
 
 #painel {
-    background: url('painel.png') no-repeat;
+    background: url('imagens/painel.png') no-repeat;
     background-size: cover;
     height: 575px;
     
