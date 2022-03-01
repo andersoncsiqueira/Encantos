@@ -9,7 +9,7 @@
 header {
     display: flex;
     background: #3B72CC;
-    height: 195px;
+    height: 20vh;
     align-items: center;
     align-content: space-between;
     justify-content: space-around;
@@ -30,7 +30,7 @@ nav a {
 }
 
 a:hover {
-   text-decoration: underline red;
+   text-decoration: underline #FF2B48;
    text-underline-position: under;
    text-decoration-thickness: 5px;
 }
@@ -44,6 +44,21 @@ a:hover {
 #painel {
     background: url('imagens/painel.png') no-repeat;
     background-size: cover;
-    height: 575px;
+    height: 75vh;
     
+}
+
+#button__doacao{
+    padding: 10px 40px;
+    border-radius: 15px;
+    background: #59D663;
+    border-style: none;
+    margin: 30% 5% 5% 80%;
+    font-size: 15px;
+    color: #FF2B48;
+}
+
+#button__doacao:hover{
+    background: #FFD432;
+    cursor: pointer;
 }
