@@ -1,7 +1,5 @@
 * {
     padding: 0px;
-    margin: 0px;
-
 }
 
                                                         /* Header */
@@ -9,7 +7,7 @@
 header {
     display: flex;
     background: #3B72CC;
-    height: 20vh;
+    height: 195px;
     align-items: center;
     align-content: space-between;
     justify-content: space-around;
@@ -23,20 +21,20 @@ header {
 
 nav a {
     color: azure;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 57PX;
+    padding-left: 17PX;
 }
 
 a:hover {
-   text-decoration: underline #FF2B48;
+   text-decoration: underline red;
    text-underline-position: under;
    text-decoration-thickness: 5px;
 }
 
 #header-icons img {
-    padding: 26px;
+    padding: 6px;
 }
 
                                             /* Main */ 
@@ -44,47 +42,47 @@ a:hover {
 #painel {
     background: url('imagens/painel.png') no-repeat;
     background-size: cover;
-    height: 75vh;
-    
-}
-
-#button__doacao{
-    padding: 10px 40px;
-    border-radius: 15px;
-    background: #59D663;
-    border-style: none;
-    margin: 30% 5% 5% 80%;
-    font-size: 15px;
-    color: #FF2B48;
-}
-
-#button__doacao:hover{
-    background: #FFD432;
-    cursor: pointer;
-}
-
-.missao{
-    background: #FF2B48;
-    height: 30vh;
-}
-
-.lista__missao{
+    height: 575px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#button {
+    display: flex;
+    background: #59D663;
+    border-radius: 10px;
+    height: 67px;
+    width: 316px;
+    margin: 25px;
     align-items: center;
-    gap: 180px;
-    padding: 80px;
-    list-style: none;
+    justify-content: center;
 }
 
-.itens__missao a{
+#button p {
+    margin: auto;
+    color: #FF2B48;
+    font-size: 30px;
+}
+
+#button a {
     text-decoration: none;
-    color: #ffff;
-    font-size: 35px;   
 }
 
-.itens__missao p{
-    color: #ffff;
-    font-size: 14px;
+.about {
+    display: flex;
+    background: #FF2B48;
+    width: 100%;
+    height: 343px;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.about-itens {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
