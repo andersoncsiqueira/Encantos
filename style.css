@@ -88,3 +88,36 @@ a:hover {
     color: #ffff;
     font-size: 14px;
 }
+
+                                        /* Galeria */ 
+
+
+.galeria {
+    margin: 10px;
+    width: 1350px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.galeria ul {
+    display: flex;
+    list-style: none;
+    width: 2000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.galeria li {
+    margin: 20px;
+    position: relative;
+    animation: slide 35s infinite;
+}
+
+@keyframes slide{
+    
+    0%{left:0px}
+
+    50%{left: -1400px} 
+
+    100% {left: 0px}
+}
