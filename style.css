@@ -15,11 +15,13 @@ header {
     justify-content: space-around;
 }
 
-#header-logo {
+.header-logo {
     width: 141px;
     height: 63px;
     padding-left: 124px;
 }
+
+
 
 nav a {
     color: azure;
@@ -94,7 +96,7 @@ a:hover {
 
 .galeria {
     margin: 10px;
-    width: 1350px;
+    width: 1778.75px;
     height: 430px;
     overflow: hidden;
 }
@@ -102,9 +104,11 @@ a:hover {
 .galeria ul {
     display: flex;
     list-style: none;
-    width: 2000px;
+    width: 1778.75px;
     height: 400px;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .galeria li {
@@ -120,4 +124,11 @@ a:hover {
     50%{left: -1400px} 
 
     100% {left: 0px}
+}
+
+.galeria h1, a {
+    color: #FF2B48;
+    text-decoration: none;
+    font-size: 38px;
+    margin: 20px;
 }
