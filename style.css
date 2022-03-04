@@ -43,6 +43,9 @@ a:hover {
 
                                             /* Main */ 
 
+
+                                            /* Painel*/
+
 .painel {
     background: url('imagens/painel.png') no-repeat;
     background-size: cover;
@@ -131,4 +134,45 @@ a:hover {
     text-decoration: none;
     font-size: 38px;
     margin: 20px;
+}
+
+
+                                                /* Doação */ 
+
+.doacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1778.75px;
+}
+
+.doacao span {
+    display: block;
+    width: 589px;
+    color: #FF2B48;
+    justify-content: center;
+
+    
+}
+
+.doacao h2 {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.doacao-button__doacao {
+    border-radius: 15px;
+    background: #59D663;
+    border-style: none;
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FF2B48;
+}
+
+.doacao-button__doacao:hover {
+    background: #FFD432;
+    cursor: pointer;
 }
