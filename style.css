@@ -4,6 +4,10 @@
 
 }
 
+body{
+    background: #f1f1f1;
+}
+
                                                         /* Header */
 
 header {
@@ -59,7 +63,7 @@ a:hover {
     background: #59D663;
     border-style: none;
     margin: 30% 5% 5% 80%;
-    font-size: 15px;
+    font-size: 16px;
     color: #FF2B48;
 }
 
@@ -127,6 +131,7 @@ a:hover {
     50%{left: -1400px} 
 
     100% {left: 0px}
+    
 }
 
 .galeria h1, a {
@@ -167,12 +172,52 @@ a:hover {
     width: 250px;
     height: 35px;
     margin: 10px;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     color: #FF2B48;
 }
 
 .doacao-button__doacao:hover {
     background: #FFD432;
     cursor: pointer;
+}
+
+.parceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiros h3{
+    font-size: 40px;
+    padding: 50px 0;
+    color: #FF2B48;
+    text-shadow: 2px 2px 4px #FFD432;
+   
+}
+
+.button__parceiro{
+    padding: 10px 40px;
+    border-radius: 15px;
+    background: #59D663;
+    border-style: none;
+    color:#FF2B48;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    
+}
+
+.button__parceiro:hover {
+    background: #FFD432;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;    
+    background: #3B72CC;
+    height: 5vh;  
 }
