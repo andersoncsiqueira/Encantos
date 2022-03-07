@@ -61,6 +61,7 @@ a:hover {
     padding: 10px 40px;
     border-radius: 15px;
     background: #59D663;
+    font-family: 'Anton', sans-serif;
     border-style: none;
     margin: 30% 5% 5% 80%;
     font-size: 16px;
@@ -165,9 +166,10 @@ a:hover {
     margin: 10px;
 }
 
-.doacao-button__doacao {
+.button__doacao {
     border-radius: 15px;
     background: #59D663;
+    font-family: 'Anton', sans-serif;
     border-style: none;
     width: 250px;
     height: 35px;
@@ -200,6 +202,7 @@ a:hover {
     padding: 10px 40px;
     border-radius: 15px;
     background: #59D663;
+    font-family: 'Anton', sans-serif;
     border-style: none;
     color:#FF2B48;
     font-size: 18px;
