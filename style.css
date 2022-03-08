@@ -8,6 +8,7 @@
 body{
     background: #f1f1f1;
     max-width: 1498px;
+    overflow-x: hidden;
 }
 
       /* Header */
@@ -150,10 +151,13 @@ a:hover {
 }
 
 .doacao span {
+    padding: 5px;
     display: block;
     width: 589px;
     color: #FF2B48;
     justify-content: center;
+    margin: 5px;
+    
 
     
 }
@@ -161,6 +165,11 @@ a:hover {
 .doacao h2 {
     font-weight: bold;
     margin: 10px;
+}
+
+.doacao p {
+    margin: 15px;
+    padding: 10px;
 }
 
 .button__doacao {
@@ -357,7 +366,107 @@ footer{
     }
 }
 
+@media (max-width: 420px) {
 
+    body {
+        overflow: hidden;
+    }
+    
+    .header-logo {
+        width: 106px;
+        height: 46px;   
+        padding-left: 5px;
+    }
+    
+
+    nav a { 
+        color: azure;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1px;   
+        margin: 1px;
+        display: none;
+    }
+
+    .header-icons a {
+        margin: 1px;
+    }
+    .header-icons img {
+        padding: 1px;
+        height: 20px;
+        width: 20px;
+        margin: 1px 1px 1px 1px;
+    }
+
+    .painel {
+        background: url('imagens/painel.png') no-repeat;
+        background-size: cover;
+        height: 35vh;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+
+    .missao {
+        height: 70vh;
+    }
+
+    .lista__missao {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .itens__missao {
+        padding: 20px;
+        height: 90px;
+        
+    }
+
+    .galeria ul {
+        display: flex;
+        list-style: none;
+        width: 90vw;
+        height: 400px;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .doacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+    }
+
+    .doacao img {
+        width: 444.8px;
+    }
+
+    .doacao span {
+        display: flex;
+        flex-direction: column;
+        width: 589px;
+        color: #FF2B48;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .parceiros h3{
+        font-size: 40px;
+        padding: 50px 0;
+        color: #FF2B48;
+        text-shadow: 2px 2px 4px #FFD432;
+        text-align: center;
+       
+    }
+}
 
 @keyframes slide{
     
