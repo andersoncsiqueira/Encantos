@@ -38,6 +38,10 @@ nav a {
     padding-left: 57PX;
 }
 
+.nav_toggle {
+    display: none;
+}
+
 a:hover {
    text-decoration: underline #FF2B48;
    text-underline-position: under;
@@ -173,15 +177,15 @@ a:hover {
 }
 
 .button__doacao {
+    padding: 10px 40px;
     border-radius: 15px;
     background-image: linear-gradient(#59D663, #06520c7c);
     font-family: 'Anton', sans-serif;
     border-style: none;
-    width: 250px;
-    height: 35px;
-    margin: 10px;
+    color:#FF2B48;
     font-size: 18px;
-    color: #FF2B48;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
 
 .doacao-button__doacao:hover {
@@ -277,14 +281,15 @@ footer{
     
     .painel .button__doacao {
         
-        border-radius: 15px;
-        background-image: linear-gradient(#59D663, #06520c7c);
-        font-family: 'Anton', sans-serif;
-        height: 60px;
-        width: 350px;
-        border-style: none;
-        font-size: 16px;
-        color: #FF2B48;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(#59D663, #06520c7c);
+    font-family: 'Anton', sans-serif;
+    border-style: none;
+    color:#FF2B48;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 100px;
         
         
     }
@@ -466,7 +471,75 @@ footer{
         text-align: center;
        
     }
+ 
+    .menu_toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        
+    } 
+
+    .one, .two, .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.4s;
+    }
+
+    .on_full_Menu {
+         position: absolute;
+         top: 120px;
+         left: 0;
+         width: 100vw;
+         height: 100vh;
+         background-color: #3B72CC;
+    }
+    
+    .nav_toggle {
+        display: block;
+        margin-top: 150px;
+    }
+    .nav_toggle  a {
+        display: block;
+        color: #f1f1f1;
+        
+    }
+
+    .on_full_Menu .menu_toggle {
+        position: absolute;
+        right: 0;
+        top: 77px;
+    }
+
+    .onOne {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .onTwo {
+        opacity: 0;
+    }
+
+    .onThree {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .on_full_Menu .nav_toggle {
+        text-align: center;
+    }
+
+    .on_full_Menu .nav_toggle a {
+    font-size: 40px;
+    margin-top: 50px;
+    }
+
+    
 }
+
+.showOff {
+    display: none;
+}
+
 
 @keyframes slide{
     
