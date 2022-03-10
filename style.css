@@ -117,16 +117,20 @@ a:hover {
     width: 1778.75px;
     height: 430px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .galeria ul {
     display: flex;
     list-style: none;
-    width: 890px;
+    width: 100vw;
     height: 400px;
     overflow: hidden;
-    align-items: center;
-    justify-content: center;
+    margin-left: 50px;
+    
 }
 
 .galeria li {
@@ -334,6 +338,22 @@ footer{
         
     }
 
+    .missao {
+        height: 70vh;
+    }
+
+    .lista__missao {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .itens__missao {
+        padding: 20px;
+        height: 90px;
+        
+    }
+
     .galeria ul {
         display: flex;
         list-style: none;
@@ -349,7 +369,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 90vw;
+        width: 100vw;
     }
 
     .doacao span {
@@ -369,6 +389,69 @@ footer{
         text-align: center;
        
     }
+
+    
+    .menu_toggle {
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+        
+    } 
+
+    .one, .two, .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 3px auto;
+        transition-duration: 0.4s;
+    }
+
+    .on_full_Menu {
+         position: absolute;
+         top: 120px;
+         left: 0;
+         width: 100vw;
+         height: 100vh;
+         background-color: #3B72CC;
+    }
+    
+    .nav_toggle {
+        display: block;
+        margin-top: 150px;
+    }
+    .nav_toggle  a {
+        display: block;
+        color: #f1f1f1;
+        
+    }
+
+    .on_full_Menu .menu_toggle {
+        position: absolute;
+        right: 0;
+        top: 77px;
+    }
+
+    .onOne {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .onTwo {
+        opacity: 0;
+    }
+
+    .onThree {
+        transform: rotate(-45deg) translate(4px, -4px);
+    }
+
+    .on_full_Menu .nav_toggle {
+        text-align: center;
+    }
+
+    .on_full_Menu .nav_toggle a {
+    font-size: 40px;
+    margin-top: 50px;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -463,6 +546,9 @@ footer{
         text-align: center;
     }
 
+    .parceiros {
+        width: 90vw;
+    }
     .parceiros h3{
         font-size: 40px;
         padding: 50px 0;
@@ -471,10 +557,11 @@ footer{
         text-align: center;
        
     }
+
  
     .menu_toggle {
-        width: 40px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         margin-right: 20px;
         
     } 
@@ -483,7 +570,7 @@ footer{
         background-color: #fff;
         height: 5px;
         width: 100%;
-        margin: 6px auto;
+        margin: 3px auto;
         transition-duration: 0.4s;
     }
 
@@ -521,7 +608,7 @@ footer{
     }
 
     .onThree {
-        transform: rotate(-45deg) translate(8px, -8px);
+        transform: rotate(-45deg) translate(4px, -4px);
     }
 
     .on_full_Menu .nav_toggle {
