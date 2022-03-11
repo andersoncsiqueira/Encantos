@@ -8,7 +8,7 @@ const two = document.querySelector('.two')
 const three = document.querySelector('.three')
 
 
-    showMenuToggle.addEventListener('click', event => {
+    showMenuToggle.addEventListener('click', () => {
         onMenu.classList.toggle('showOff')
         one.classList.toggle('onOne')
         two.classList.toggle('onTwo')

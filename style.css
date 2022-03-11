@@ -631,7 +631,7 @@ footer{
 
 .wrapper {
     display: none;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .6);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -640,17 +640,24 @@ footer{
 
 .popup {
     background:#3B72CC;
-    display: flex;
-    position: absolute;
-    top: 300px;
-    left: 30px;
+    display: grid;
+    position: fixed;
+    top: 200px;
+    right: 50px;
+    height: 250px;
+    max-width: 900px;
     padding: 10px;
-    
+    border: double 8px white;
+    margin: auto;
+    align-items: center;
+    text-align: center;
 }
 
 .closeX {
     display: flex;
     position: fixed;
+    top: 190px;
+    right: 40px;
     background: #e0e6e1;
     padding: 6px;
     border: solid #FF2B48 2px;
@@ -660,6 +667,10 @@ footer{
     align-items: center;
     justify-content: center;
     cursor:  pointer;
+}
+
+.popup h4 {
+    width: 100%;
 }
 
 @keyframes slide{
