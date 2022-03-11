@@ -17,4 +17,16 @@ const three = document.querySelector('.three')
 
 
 
-console.log(two)
+// Popup doação 
+
+const wrapper = document.querySelector('.wrapper')
+const buttonDoacao = document.querySelector('#button__doacao')
+const closeX = document.querySelector('.closeX')
+
+buttonDoacao.addEventListener('click', ()=> {
+    wrapper.style.display = 'flex'
+})
+
+closeX.addEventListener('click', ()=> {
+    wrapper.style.display = 'none'
+})

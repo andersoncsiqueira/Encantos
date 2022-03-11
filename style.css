@@ -629,6 +629,38 @@ footer{
     display: none;
 }
 
+.wrapper {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.popup {
+    background:#3B72CC;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    padding: 10px;
+    
+}
+
+.closeX {
+    display: flex;
+    position: fixed;
+    background: #e0e6e1;
+    padding: 6px;
+    border: solid #FF2B48 2px;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor:  pointer;
+}
 
 @keyframes slide{
     
@@ -639,3 +671,4 @@ footer{
     100% {left: 0px}
     
 }
+
