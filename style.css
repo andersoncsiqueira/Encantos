@@ -87,7 +87,7 @@ a:hover {
 
 .missao{
     background: #FF2B48;
-    height: 30vh;
+    
 }
 
 .lista__missao{
@@ -96,7 +96,7 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     gap: 180px;
-    padding: 80px;
+    padding: 10px;
     list-style: none;
 }
 
@@ -540,7 +540,7 @@ footer{
     .painel {
         background: url('imagens/painel.png') no-repeat;
         background-size: cover;
-        height: 35vh;
+        height: 80vh;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-end;
@@ -589,7 +589,7 @@ footer{
     .doacao span {
         display: flex;
         flex-direction: column;
-        width: 589px;
+        width: 360px;
         color: #FF2B48;
         justify-content: center; 
         align-items: center;
