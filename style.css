@@ -350,10 +350,13 @@ footer{
     
     .doacao {
         display: flex;
-        justify-content: space-between;
-        align-content: space-between;
+        justify-content: center;
+        align-content: center;
         align-items: center;
-        width: 890px;
+    }
+
+    .doacao img {
+        margin-left: 200px;
     }
 
 }
