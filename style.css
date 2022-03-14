@@ -399,11 +399,13 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 8px;
+        align-items: flex-start;
     }
 
     .itens__missao {
         padding: 20px;
         height: 90px;
+        
         
     }
 
@@ -432,6 +434,11 @@ footer{
         color: #FF2B48;
         justify-content: center; 
         align-items: center;
+    }
+
+    .doacao img {
+        margin-left: 50px;
+        
     }
 
     .parceiros h3{
