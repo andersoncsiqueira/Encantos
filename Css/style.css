@@ -58,7 +58,7 @@ a:hover {
  /* Painel*/
 
 .painel {
-    background: url('/imagens/painel.png') no-repeat;
+    background: url('../imagens/painel.png') no-repeat;
     background-size: cover;
     height: 75vh;
     display: flex;
@@ -325,7 +325,7 @@ footer{
 
 
     .painel {
-        background: url('imagens/painel.png') no-repeat;
+        background: url('../imagens/painel.png') no-repeat;
         background-size: cover;
         height: 75vh;
         display: flex;
@@ -548,7 +548,7 @@ footer{
     }
 
     .painel {
-        background: url('imagens/painel.png') no-repeat;
+        background: url('../imagens/painel.png') no-repeat;
         background-size: cover;
         height: 80vh;
         display: flex;
