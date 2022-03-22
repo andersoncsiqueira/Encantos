@@ -242,11 +242,12 @@ a:hover {
 
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #ffff;    
     background: #3B72CC;
-    height: 5vh;  
+    height: 7vh;  
 }
 
 .wrapper {
