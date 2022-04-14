@@ -262,11 +262,9 @@ footer{
 .popup {
     background:#3B72CC;
     display: grid;
-    position: fixed;
-    top: 200px;
-    right: 50px;
+    position: relative;
     height: 250px;
-    max-width: 900px;
+    max-width: 400px;
     padding: 10px;
     border: double 8px white;
     margin: auto;
@@ -277,9 +275,9 @@ footer{
 
 .closeX {
     display: flex;
-    position: fixed;
-    top: 190px;
-    right: 40px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
     background: #e0e6e1;
     padding: 6px;
     border: solid #FF2B48 2px;
