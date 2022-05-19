@@ -58,7 +58,7 @@ a:hover {
  /* Painel*/
 
 .painel {
-    background: url('../imagens/painel.png') no-repeat;
+    background: url('../imagens/principal.jpg') no-repeat;
     background-size: cover;
     height: 75vh;
     display: flex;
@@ -171,6 +171,11 @@ a:hover {
     
 }
 
+.doacao img {
+
+width: 556px;
+
+}
 .doacao span {
     padding: 5px;
     display: block;
@@ -323,7 +328,7 @@ footer{
 
 
     .painel {
-        background: url('../imagens/painel.png') no-repeat;
+        background: url('../imagens/principal.jpg') no-repeat;
         background-size: cover;
         height: 75vh;
         display: flex;
