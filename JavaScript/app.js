@@ -6,7 +6,8 @@ const onMenu = document.querySelector('#on_full_Menu')
 const one = document.querySelector('.one')
 const two = document.querySelector('.two')
 const three = document.querySelector('.three')
-
+const body = document.querySelector('body')
+const html = document.querySelector('html')
 
     showMenuToggle.addEventListener('click', () => {
         onMenu.classList.toggle('showOff')
@@ -26,10 +27,13 @@ const closeX = document.querySelector('.closeX')
 
 buttonDoacao.addEventListener('click', ()=> {
     wrapper.style.display = 'flex'
+    body.classList.toggle('overflow')
 })
 
 closeX.addEventListener('click', ()=> {
     wrapper.style.display = 'none'
+    body.classList.toggle('overflow')
+   
 })
 
 buttonDoacao2.addEventListener('click', ()=> {

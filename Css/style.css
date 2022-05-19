@@ -6,9 +6,9 @@
 }
 
 body{
-    background: #f1f1f1;
+    background: #98c5b6;
     max-width: 1498px;
-    overflow-x: hidden;
+    
 }
 
       /* Header */
@@ -517,9 +517,7 @@ footer{
 
 @media (max-width: 420px) {
 
-    body {
-        overflow: hidden;
-    }
+
     
     .header-logo {
         width: 106px;
@@ -549,7 +547,7 @@ footer{
     }
 
     .painel {
-        background: url('../imagens/painel.png') no-repeat;
+        background: url('../imagens/principal.jpg') no-repeat;
         background-size: cover;
         height: 80vh;
         display: flex;
@@ -732,7 +730,9 @@ footer{
 }
 
 
-
+.overflow {
+    overflow: hidden;
+}
 
 
 @keyframes slide{
