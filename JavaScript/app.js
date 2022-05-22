@@ -38,6 +38,7 @@ closeX.addEventListener('click', ()=> {
 
 buttonDoacao2.addEventListener('click', ()=> {
     wrapper.style.display = 'flex'
+    body.classList.toggle('overflow')
 })
 
 closeX.addEventListener('click', ()=> {
