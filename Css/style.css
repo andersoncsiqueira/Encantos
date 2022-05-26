@@ -4,13 +4,9 @@
 }
 
 body{
-    background: #e4f8f1;
-    max-width: 1498px;
-    
+    background: #e4f8f1;  
 }
-
       /* Header */
-
 header {
     display: flex;
     background: #3B72CC;
@@ -47,12 +43,7 @@ a:hover {
 .header-icons img {
     padding: 26px;
 }
-
-  /* Main */ 
-
-
  /* Painel*/
-
 .painel {
     background: url('../imagens/principal.jpg') no-repeat;
     background-size: cover;
@@ -60,7 +51,6 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    
 }
 
 .painel .button__doacao {
@@ -74,6 +64,7 @@ a:hover {
     color: #f7ebed;
     margin-right: 15px;
     cursor:  pointer;
+    animation: background2 1s infinite;
 }
 
 .button__doacao:hover{
@@ -83,7 +74,6 @@ a:hover {
 
 .missao{
     background: #FF2B48;
-    
 }
 
 .lista__missao{
@@ -100,9 +90,7 @@ a:hover {
     font-size: 35px; 
     width: max-content;  
     margin: auto;
-    
 }
-
 
 .itens__missao p{
     color: #ffff;
@@ -116,10 +104,7 @@ a:hover {
     width: 33vw;
     
 }
-
                                         /* Galeria */ 
-
-
 .galeria {
     margin: 10px;
     width: 1778.75px;
@@ -128,7 +113,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .galeria ul {
@@ -138,7 +122,6 @@ a:hover {
     height: 400px;
     overflow: hidden;
     margin-left: 50px;
-    
 }
 
 .galeria li {
@@ -147,16 +130,12 @@ a:hover {
     animation: slide 35s infinite;
 }
 
-
-
 .galeria h1, .link  {
     color: #FF2B48;
     text-decoration: none;
     font-size: 38px;
     margin: 20px;
 }
-
-
                                                 /* Doação */ 
 
 .doacao {
@@ -201,6 +180,7 @@ width: 556px;
     font-weight: bold;
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
+    animation: background2 1s infinite;
 }
 
 .doacao-button__doacao:hover {
@@ -219,8 +199,6 @@ width: 556px;
     font-size: 40px;
     padding: 50px 0;
     color: #FF2B48;
-    text-shadow: 2px 2px 4px #FFD432;
-   
 }
 
 .button__parceiro{
@@ -234,6 +212,7 @@ width: 556px;
     font-weight: bold;
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
+    animation: background2 1s infinite;
 }
 
 .button__parceiro:hover {
@@ -312,10 +291,8 @@ footer{
         color: azure;
         font-size: 20px;
         font-weight: bold;
-        text-decoration: none;
         padding: 5px;   
     }
-
 
     .header-icons img {
         padding: 1px;
@@ -323,10 +300,8 @@ footer{
         width: 20px;
     }
 
-
     .painel {
-        background: url('../imagens/principal.jpg') no-repeat;
-        background-size: cover;
+        
         height: 75vh;
         display: flex;
         flex-direction: row-reverse;
@@ -336,9 +311,6 @@ footer{
     .painel .button__doacao {
         
     padding: 10px 40px;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    border-style: none;
-    color:#ffffff;
     font-size: 18px;
     margin-bottom: 100px;
         
@@ -351,10 +323,7 @@ footer{
         
     }
 
-   
-
 }
-
 
 @media (max-width: 913px) {
 
@@ -370,19 +339,16 @@ footer{
         color: azure;
         font-size: 20px;
         font-weight: bold;
-        text-decoration: none;
         padding: 1px;   
         margin: 1px;
         display: none;
     }
-
 
     .header-icons img {
         padding: 1px;
         height: 20px;
         width: 20px;
         margin: 1px;
-        
     }
 
     .missao {
@@ -399,13 +365,10 @@ footer{
     .itens__missao {
         padding: 20px;
         height: 90px;
-        
-        
     }
 
     .galeria ul {
         display: flex;
-        list-style: none;
         width: 90vw;
         height: 400px;
         overflow: hidden;
@@ -433,19 +396,15 @@ footer{
 
     .doacao img {
         margin-left: 50px;
-        
     }
 
     .parceiros h3{
         font-size: 40px;
         padding: 50px 0;
         color: #FF2B48;
-        text-shadow: 2px 2px 4px #FFD432;
         text-align: center;
-       
     }
 
-    
     .menu_toggle {
         width: 24px;
         height: 24px;
@@ -524,7 +483,6 @@ footer{
         color: azure;
         font-size: 20px;
         font-weight: bold;
-        text-decoration: none;
         padding: 1px;   
         margin: 1px;
         display: none;
@@ -541,14 +499,11 @@ footer{
     }
 
     .painel {
-        background: url('../imagens/principal.jpg') no-repeat;
-        background-size: cover;
         height: 80vh;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-end;
         justify-content: center;
-        
     }
 
     .missao {
@@ -569,10 +524,8 @@ footer{
 
     .galeria ul {
         display: flex;
-        list-style: none;
         width: 90vw;
         height: 400px;
-        overflow: hidden;
         align-items: center;
         justify-content: center;
     }
@@ -606,7 +559,6 @@ footer{
         font-size: 40px;
         padding: 50px 0;
         color: #FF2B48;
-        text-shadow: 2px 2px 4px #FFD432;
         text-align: center;
        
     }
@@ -680,8 +632,7 @@ footer{
         width: 100vw;
         height: 100vh;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;   
     }
     
     .popup {
@@ -723,11 +674,9 @@ footer{
     display: none;
 }
 
-
 .overflow {
     overflow: hidden;
 }
-
 
 @keyframes slide{
     
@@ -736,6 +685,9 @@ footer{
     50%{left: -1400px} 
 
     100% {left: 0px}
-    
 }
 
+@keyframes background2 {
+    0% {background-image: linear-gradient(90deg,#2b67c7, #032357)}
+    100% {background-image: linear-gradient( #032357 )}
+}
