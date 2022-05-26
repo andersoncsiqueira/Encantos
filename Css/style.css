@@ -3,8 +3,13 @@
     margin: 0px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body{
     background: #e4f8f1;  
+    overflow-x: hidden;
 }
       /* Header */
 header {
