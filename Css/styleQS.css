@@ -25,3 +25,8 @@ footer {
     margin: 0px;
     padding: 5px;
 }
+
+hr {
+    color: #FF2B48;
+    background: #FF2B48;
+}

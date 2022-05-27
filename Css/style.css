@@ -206,18 +206,25 @@ width: 556px;
     color: #FF2B48;
 }
 
+
 .button__parceiro{
     padding: 10px 40px;
     border-radius: 15px;
     background-image: linear-gradient(#3B72CC, #032357);
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     border-style: none;
+    text-decoration: none;
     color:#ffffff;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
     animation: background2 1s infinite;
+}
+
+.parceiros a {
+text-decoration: none;
+color: #f1f1f1;
 }
 
 .button__parceiro:hover {
@@ -329,6 +336,14 @@ footer{
         
     }
 
+}
+
+hr {
+   border-color: #FF2B48;
+   width: 90vw;
+   margin: auto;
+   margin-bottom: 15px;
+   margin-top: 15px;
 }
 
 @media (max-width: 913px) {

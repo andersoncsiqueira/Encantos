@@ -1,9 +1,12 @@
 
+
+body {
+    height: 100vh;
+}
 main {
     
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 section {
@@ -32,4 +35,9 @@ img{
 .cursos li {
     padding: 8px;
     list-style: none;
+}
+
+footer {
+    margin: 0px;
+    padding: 5px;
 }
