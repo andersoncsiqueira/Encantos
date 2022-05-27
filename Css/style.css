@@ -418,6 +418,12 @@ hr {
     .doacao img {
         margin-left: 50px;
     }
+     
+    .section_doacao_E_parceiros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .parceiros h3{
         font-size: 40px;
