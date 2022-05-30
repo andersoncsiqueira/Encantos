@@ -93,7 +93,7 @@ a:hover {
     display: flex;
     margin: 15px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .news h1 {
