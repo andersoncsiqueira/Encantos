@@ -89,26 +89,33 @@ a:hover {
     list-style: none;
 }
 
-.itens__missao h1{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 35px; 
-    width: max-content;  
-    margin: auto;
+.news {
+    display: flex;
+    margin: 15px;
+
 }
 
-.itens__missao p{
-    color: #ffff;
-    font-size: 14px;
+.news h1 {
+max-width: 55vw;
+margin: auto;
+text-align: center;
+color: #FF2B48;
+}
+
+.news img {
+    max-width: 30vw;
+    height: fit-content;
+    margin: 35px 2px auto 12px;
+}
+
+.news p {
+    max-width: 55vw;
     text-align: justify;
+    border: 2px dotted #ff2b4b;
+    padding: 3px;
 }
-
-.itens__missao li {
-    color: #f1f1f1;
-    list-style-type: square;
-    width: 33vw;
     
-}
+
                                         /* Galeria */ 
 .galeria {
     margin: 10px;
@@ -118,6 +125,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .galeria ul {
@@ -135,7 +143,7 @@ a:hover {
     animation: slide 35s infinite;
 }
 
-.galeria h1, .link  {
+.galeria h1, .link, a  {
     color: #FF2B48;
     text-decoration: none;
     font-size: 38px;
