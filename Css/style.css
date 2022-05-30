@@ -92,7 +92,8 @@ a:hover {
 .news {
     display: flex;
     margin: 15px;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 .news h1 {
@@ -105,13 +106,13 @@ color: #FF2B48;
 .news img {
     max-width: 30vw;
     height: fit-content;
-    margin: 35px 2px auto 12px;
+   
 }
 
 .news p {
     max-width: 55vw;
     text-align: justify;
-    border: 2px dotted #ff2b4b;
+    border: 1px dotted #ff2b4b;
     padding: 3px;
 }
     
