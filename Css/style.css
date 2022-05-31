@@ -381,20 +381,9 @@ hr {
         margin: 1px;
     }
 
-    .missao {
-        height: 70vh;
-    }
-
-    .lista__missao {
-        display: flex;
+    .news {
         flex-direction: column;
-        gap: 8px;
-        align-items: flex-start;
-    }
-
-    .itens__missao {
-        padding: 20px;
-        height: 90px;
+        
     }
 
     .galeria ul {
@@ -542,19 +531,8 @@ hr {
         justify-content: center;
     }
 
-    .missao {
-        height: 70vh;
-    }
-
-    .lista__missao {
-        display: flex;
+    .news {
         flex-direction: column;
-        gap: 8px;
-    }
-
-    .itens__missao {
-        padding: 20px;
-        height: 90px;
         
     }
 
