@@ -383,6 +383,8 @@ hr {
 
     .news {
         flex-direction: column;
+        justify-content: space-around;
+
         
     }
 
