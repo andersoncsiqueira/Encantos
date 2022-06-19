@@ -106,14 +106,16 @@ color: #FF2B48;
 .news img {
     max-width: 30vw;
     height: fit-content;
+    margin: 5px;
+    float: right;
    
 }
 
 .news p {
     max-width: 55vw;
     text-align: justify;
-    border: 1px dotted #ff2b4b;
     padding: 3px;
+    
 }
     
 
@@ -250,7 +252,11 @@ footer{
     align-items: center;
     color: #ffff;    
     background: #3B72CC;
-    height: 7vh;  
+    height: 15vh;  
+}
+
+footer hr {
+    margin: 2px;
 }
 
 .wrapper {
@@ -382,20 +388,11 @@ hr {
         margin: 1px;
     }
 
-    .missao {
-        height: 70vh;
-    }
-
-    .lista__missao {
-        display: flex;
+    .news {
         flex-direction: column;
-        gap: 8px;
-        align-items: flex-start;
-    }
+        justify-content: space-around;
 
-    .itens__missao {
-        padding: 20px;
-        height: 90px;
+        
     }
 
     .galeria ul {
@@ -543,19 +540,8 @@ hr {
         justify-content: center;
     }
 
-    .missao {
-        height: 70vh;
-    }
-
-    .lista__missao {
-        display: flex;
+    .news {
         flex-direction: column;
-        gap: 8px;
-    }
-
-    .itens__missao {
-        padding: 20px;
-        height: 90px;
         
     }
 
