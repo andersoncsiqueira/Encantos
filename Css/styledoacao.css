@@ -16,3 +16,8 @@ h1, h2 {
 ul {
     list-style: none;
 }
+
+.icons-footer img {
+    width: 24px;
+    height: 24px;
+}
