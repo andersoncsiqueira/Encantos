@@ -1,8 +1,9 @@
 
 
 body {
-    height: 100vh;
     background-image: url("/imagens/Cópia\ de\ logo\ em\ branco\ \(positivo\).png");
+    display: flex;
+    flex-direction: column;
 }
 main {
     min-height: 600px;
@@ -70,4 +71,18 @@ table {
 td {
     border: 2px dotted rgba(255, 0, 0, 0.479);
     padding: 8px;
+}
+
+button {
+    width: max-content;
+    background-image: linear-gradient(#3B72CC, #032357);
+    margin: auto auto 20px auto;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
 }
