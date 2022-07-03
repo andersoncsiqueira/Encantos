@@ -1,4 +1,8 @@
 
+body {
+    background-image: url("/imagens/Cópia\ de\ logo\ em\ branco\ \(positivo\).png");
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -12,6 +16,7 @@ main {
 
 article {
     margin: 15px;
+    background: white;
     padding: 15px;
     max-width: 700px;
     min-width: 320px;

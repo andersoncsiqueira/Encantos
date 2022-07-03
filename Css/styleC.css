@@ -2,6 +2,7 @@
 
 body {
     height: 100vh;
+    background-image: url("/imagens/Cópia\ de\ logo\ em\ branco\ \(positivo\).png");
 }
 main {
     min-height: 600px;

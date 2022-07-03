@@ -1,3 +1,7 @@
+body {
+    background-image: url("/imagens/Cópia\ de\ logo\ em\ branco\ \(positivo\).png");
+}
+
 main{
     display: flex;
     flex-direction: column;
