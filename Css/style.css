@@ -263,6 +263,10 @@ footer hr {
     margin: 2px;
 }
 
+footer h4 {
+    text-align: center;
+}
+
 .wrapper {
     display: none;
     background: rgba(0, 0, 0, .6);
