@@ -38,3 +38,7 @@ hr {
     color: #FF2B48;
     background: #FF2B48;
 }
+
+li {
+    margin: 15px;
+}
