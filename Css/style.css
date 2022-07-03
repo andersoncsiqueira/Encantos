@@ -549,6 +549,13 @@ hr {
         
     }
 
+    .news p {
+        max-width: 80vw;
+        text-align: justify;
+        padding: 3px;
+        
+    }
+
     .galeria ul {
         display: flex;
         width: 90vw;

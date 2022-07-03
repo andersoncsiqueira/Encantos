@@ -15,18 +15,30 @@ main{
 
 h1, h2 {
     text-align: center;
+    margin-top: 15px;
 }
 
 ul {
     list-style: none;
+    
 }
 
+ul ul {
+    margin-top: 15px;
+    list-style: circle;
+    color: #FF2B48;
+}
 .icons-footer img {
     width: 24px;
     height: 24px;
 }
 
-a {
-    width: 24px;
-    height: 24px;
+li {
+    margin: 15px;
+}
+
+p {
+    margin-top: 15px;
+    color: #FF2B48;
+    text-align: center;
 }
