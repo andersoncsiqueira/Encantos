@@ -726,6 +726,15 @@ hr {
 }
 
 @keyframes background2 {
-    0% {background-image: linear-gradient(90deg,#2b67c7, #032357)}
-    100% {background-image: linear-gradient( #032357 )}
+    0% {background-image: linear-gradient(0deg,#032357, #2b67c7, #032357)}
+    10% {background-image: linear-gradient( 36deg, #032357, #2b67c7,  #032357)}
+    20% {background-image: linear-gradient( 72deg, #032357, #2b67c7,  #032357)}
+    30% {background-image: linear-gradient( 108deg, #032357, #2b67c7,  #032357)}
+    40% {background-image: linear-gradient(144deg,#032357, #2b67c7, #032357)}
+    50% {background-image: linear-gradient( 180deg, #032357, #2b67c7,  #032357)}
+    60% {background-image: linear-gradient( 216deg, #032357, #2b67c7,  #032357)}
+    70% {background-image: linear-gradient( 252deg, #032357, #2b67c7,  #032357)}
+    80% {background-image: linear-gradient( 288deg, #032357, #2b67c7,  #032357)}
+    90% {background-image: linear-gradient( 3deg, #032357, #2b67c7,  #032357)}
+    100% {background-image: linear-gradient( 360deg, #032357, #2b67c7,  #032357)}
 }
