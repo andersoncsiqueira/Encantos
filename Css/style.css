@@ -71,7 +71,7 @@ a:hover {
     color: #f7ebed;
     margin-right: 15px;
     cursor:  pointer;
-    animation: background2 1s infinite;
+    animation: background2 4s infinite;
 }
 
 .button__doacao:hover{
@@ -199,7 +199,7 @@ width: 556px;
     font-weight: bold;
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
-    animation: background2 1s infinite;
+    animation: background2 4s infinite;
 }
 
 .doacao-button__doacao:hover {
@@ -234,7 +234,7 @@ width: 556px;
     font-weight: bold;
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
-    animation: background2 1s infinite;
+    animation: background2 5s infinite;
 }
 
 .parceiros a {
@@ -735,6 +735,6 @@ hr {
     60% {background-image: linear-gradient( 216deg, #032357, #2b67c7,  #032357)}
     70% {background-image: linear-gradient( 252deg, #032357, #2b67c7,  #032357)}
     80% {background-image: linear-gradient( 288deg, #032357, #2b67c7,  #032357)}
-    90% {background-image: linear-gradient( 3deg, #032357, #2b67c7,  #032357)}
+    90% {background-image: linear-gradient( 324deg, #032357, #2b67c7,  #032357)}
     100% {background-image: linear-gradient( 360deg, #032357, #2b67c7,  #032357)}
 }
