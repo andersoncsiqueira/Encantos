@@ -118,3 +118,25 @@ h2 {
         min-height: 200px;
     }
 }
+
+#whats {
+    width: 25px;
+    filter: grayscale(.2);
+    margin: 0px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section a {
+    margin: 0px;
+}
+
+h2 {
+    color: #FF2B48;
+    text-align: center;
+}

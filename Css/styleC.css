@@ -59,8 +59,9 @@ footer {
    }
 }
 
-h2 {
+h2, h3 {
     text-align: center;
+    color: #FF2B48;
 }
 
 table {
@@ -80,9 +81,31 @@ button {
     border-radius: 15px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
+    
+}
+
+button a {
+    color: antiquewhite;
 }
 
 button a:hover {
     text-decoration: none;
-    color: white;
+    color:  rgba(255, 0, 0, 0.479);
+    
+}
+
+button:hover{
+    background-image: linear-gradient(#03235785,#3B72CC);
+}
+
+
+
+.containGroupOfAtctives {
+    margin: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.479);
+    padding: 5px;
+}
+
+p {
+    margin: 10px;
 }
