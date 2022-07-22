@@ -21,11 +21,11 @@ const html = document.querySelector('html')
 // Popup doação 
 
 const wrapper = document.querySelector('.wrapper')
-const buttonDoacao = document.querySelector('#button__doacao')
+const buttonDoacao = document.querySelectorAll('.button__doacao')
 const buttonDoacao2 = document.querySelector('#button__doacao2')
 const closeX = document.querySelector('.closeX')
 
-buttonDoacao.addEventListener('click', ()=> {
+buttonDoacao.forEach(button => {button.addEventListener('click', ()=> {
     wrapper.style.display = 'flex'
     body.classList.toggle('overflow')
 })
@@ -45,6 +45,7 @@ closeX.addEventListener('click', ()=> {
     wrapper.style.display = 'none'
 })
 
+})
 
 // gaveta 
 

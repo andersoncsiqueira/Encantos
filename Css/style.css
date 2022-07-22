@@ -59,12 +59,13 @@ a:hover {
     align-items: flex-end;
 }
 
-.painel .button__doacao {
+ .button__doacao_painel {
     padding: 10px 40px 10px 40px;
     border-radius: 15px;
-    background-image: linear-gradient(#3B72CC, #032357);
+    background-image: linear-gradient(#3B72CC, #FF2B48);
     font-family: 'Libre Bodoni', serif;
     font-weight: 100;
+    visibility: hidden;
     height: 50px;
     border-style: none;
     font-size: 16px;
@@ -190,14 +191,14 @@ width: 556px;
 .button__doacao {
     padding: 10px 40px;
     border-radius: 15px;
-    background-image: linear-gradient(#3B72CC, #032357);
+    background-image: linear-gradient(#3B72CC, #FF2B48);
     font-family: 'Libre Bodoni', serif;
     font-weight: 100;
     border-style: none;
     color:#ffffff;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 100px;
+   
     box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
     animation: background2 4s infinite;
 }
@@ -362,6 +363,31 @@ footer h4 {
 
 }
 
+@media (max-width:1200px) {
+
+    .button__doacao {
+        padding: 5px 20px;
+        border-radius: 15px;
+        background-image: linear-gradient(#3B72CC, #FF2B48);
+        font-family: 'Libre Bodoni', serif;
+        font-weight:lighter;
+        border-style: none;
+        color:#ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.658) 4px 2px;
+        animation: background2 4s infinite;
+    }
+
+    nav a {
+        color: azure;
+        font-size: 14px;
+        margin: 2px;
+        padding-left: 7PX;
+    }
+
+}
+
 hr {
    border-color: #FF2B48;
    width: 90vw;
@@ -379,6 +405,18 @@ hr {
         padding-left: 5px;
     }
     
+    .button__doacao_painel {
+       
+      visibility: visible;
+        
+    }
+
+    #button__doacao {
+       
+        display: none;
+          
+      }
+
 
     nav a {
         color: azure;
@@ -395,6 +433,8 @@ hr {
         width: 20px;
         margin: 1px;
     }
+
+    
 
     .news {
         flex-direction: column;
@@ -538,6 +578,10 @@ hr {
         height: 20px;
         width: 20px;
         margin: 1px 1px 1px 1px;
+    }
+
+    #button__doacao {
+        display: none;
     }
 
     .painel {
@@ -726,15 +770,15 @@ hr {
 }
 
 @keyframes background2 {
-    0% {background-image: linear-gradient(0deg,#032357, #2b67c7, #032357)}
-    10% {background-image: linear-gradient( 36deg, #032357, #2b67c7,  #032357)}
-    20% {background-image: linear-gradient( 72deg, #032357, #2b67c7,  #032357)}
-    30% {background-image: linear-gradient( 108deg, #032357, #2b67c7,  #032357)}
-    40% {background-image: linear-gradient(144deg,#032357, #2b67c7, #032357)}
-    50% {background-image: linear-gradient( 180deg, #032357, #2b67c7,  #032357)}
-    60% {background-image: linear-gradient( 216deg, #032357, #2b67c7,  #032357)}
-    70% {background-image: linear-gradient( 252deg, #032357, #2b67c7,  #032357)}
-    80% {background-image: linear-gradient( 288deg, #032357, #2b67c7,  #032357)}
-    90% {background-image: linear-gradient( 324deg, #032357, #2b67c7,  #032357)}
-    100% {background-image: linear-gradient( 360deg, #032357, #2b67c7,  #032357)}
+    0% {background-image: linear-gradient(0deg, #FF2B48,  #FF2B70,  #FF2B48)}
+    10% {background-image: linear-gradient( 36deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    20% {background-image: linear-gradient( 72deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    30% {background-image: linear-gradient( 108deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    40% {background-image: linear-gradient(144deg, #FF2B48,  #FF2B70,  #FF2B48)}
+    50% {background-image: linear-gradient( 180deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    60% {background-image: linear-gradient( 216deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    70% {background-image: linear-gradient( 252deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    80% {background-image: linear-gradient( 288deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    90% {background-image: linear-gradient( 324deg,  #FF2B48,  #FF2B70,   #FF2B48)}
+    100% {background-image: linear-gradient( 360deg,  #FF2B48,  #FF2B70,   #FF2B48)}
 }
