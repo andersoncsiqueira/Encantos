@@ -103,7 +103,7 @@ h2 {
 
 @media (max-width: 420px) {
     main {
-        min-height: 600px;
+       
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -113,9 +113,26 @@ h2 {
         text-align:center ;
     }
 
+    form {
+        height: 435px;
+    }
+
     form, .contact {
         min-width: 330px;
         min-height: 200px;
+    }
+
+    input {
+        margin-top: 15px;
+    }
+
+    label {
+        margin-top: 15px;
+    }
+
+    .contact {
+        height: 400px;
+        margin-bottom: 35px;
     }
 }
 
